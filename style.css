@@ -1,0 +1,60 @@
+body {
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: center;
+    background-color: rgb(8, 156, 255);
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+#relogio {
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 20px;
+    display: inline-block;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+body.manha {
+    background: linear-gradient(135deg, #0972e9, #7fc4e4);
+    color: #ffffff;
+}
+ 
+body.tarde {
+    background: linear-gradient(135deg, #ec7607, #ffae00);
+    color: #fff;
+}
+ 
+body.noite {
+    background: linear-gradient(135deg, #000000, #203A43, #2C5364);
+    color: #fff;
+}
+ 
+body.madrugada {
+    background: linear-gradient(135deg, #000428, #004e92);
+    color: #fff;
+}
+
+.alarm-box {
+  margin: 15px 0;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #ff9800;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e68900;
+}
